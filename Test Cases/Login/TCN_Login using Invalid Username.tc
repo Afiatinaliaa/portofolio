@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCP_Success Login</name>
+   <name>TCN_Login using Invalid Username</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ddbb55a0-9096-499c-9c35-e18526a23e76</testCaseGuid>
+   <testCaseGuid>6dde994d-3b89-4764-a39c-3900b4e893c6</testCaseGuid>
 </TestCaseEntity>

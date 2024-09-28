@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCP_Success Login</name>
+   <name>TCP_Success Registration</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ddbb55a0-9096-499c-9c35-e18526a23e76</testCaseGuid>
+   <testCaseGuid>60e6f8c7-4204-4e56-9d6d-87d39e32d351</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Login</name>
+   <tag></tag>
+   <elementGuidId>aaff1bd4-f1da-433b-b417-df4572c3b70e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mdc-button__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9370e31f-0e51-4588-87d4-93ebb9b8041d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__label</value>
+      <webElementGuid>68685de2-2995-4d0f-bf19-ce976ff90edd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>31f92c23-d74d-4e1d-9c8f-e4d44665250c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex justify-content-center&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 w-50&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content p-3&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/mat-card-actions[@class=&quot;mat-mdc-card-actions mdc-card__actions p-0 mat-mdc-card-actions-align-end&quot;]/button[@class=&quot;mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
+      <webElementGuid>742b57c9-0605-499f-ba0c-1dd5717ebb15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[3]</value>
+      <webElementGuid>660b823e-c596-484c-a15c-78ef4497219b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::span[4]</value>
+      <webElementGuid>66491cca-4312-480b-a1d2-9904a1884a64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API details'])[1]/preceding::span[4]</value>
+      <webElementGuid>694cbf96-517c-4af2-8acb-717e9e608863</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[2]/preceding::span[4]</value>
+      <webElementGuid>e1ec4fae-4723-45f2-a596-1e4d17345f6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-actions/button/span[2]</value>
+      <webElementGuid>afe4991d-a267-4170-979e-2dc5e0e37cb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>30c27fc7-0e41-40a9-a2da-70b68dfb2192</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

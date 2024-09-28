@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Register</name>
+   <tag></tag>
+   <elementGuidId>11babc6f-1e2f-4e40-8d10-e72513620392</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mdc-button__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>20bc46d0-986f-40d1-8f00-8c54df50038b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__label</value>
+      <webElementGuid>971a75d8-6af9-4dac-a502-22c1596ea8b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register</value>
+      <webElementGuid>1db6c3f2-b7bf-4421-a935-f85f7fb79c6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-user-registration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex justify-content-center&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 w-50&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content p-3&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/mat-card-actions[@class=&quot;mat-mdc-card-actions mdc-card__actions p-0 mat-mdc-card-actions-align-end&quot;]/button[@class=&quot;mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
+      <webElementGuid>e01c18a9-0668-4ff0-ae24-33dc0b27882d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/following::span[2]</value>
+      <webElementGuid>e8a55928-24ed-4fd4-8a72-bc98d5f67718</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Male'])[1]/following::span[2]</value>
+      <webElementGuid>a0013f20-b6ae-42ce-8039-930e1152a45a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API details'])[1]/preceding::span[4]</value>
+      <webElementGuid>0250535d-d943-4570-843a-f7827e4ca376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[2]/preceding::span[4]</value>
+      <webElementGuid>4f370db6-e144-47ad-b554-e88ad98124fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Register']/parent::*</value>
+      <webElementGuid>09a9591f-7c70-4271-b91a-46c2d2e18740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-actions/button/span[2]</value>
+      <webElementGuid>3f308e2c-9b86-4ffb-98a0-eb19fbfb4a25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Register' or . = 'Register')]</value>
+      <webElementGuid>794d4645-f4d9-4e03-8ac9-58702b08a7bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

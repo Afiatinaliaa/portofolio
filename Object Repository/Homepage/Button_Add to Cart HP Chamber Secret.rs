@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Add to Cart HP Chamber Secret</name>
+   <tag></tag>
+   <elementGuidId>3085e31b-101e-4c23-95e7-56f822df1e5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/button/span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>84fc22d4-9672-4957-b65c-f96f029a180e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>3dcb333e-ee16-4d45-afcb-72fb2e0831f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>3dc5ec62-7ab2-4f21-967e-d6bafd98a1d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span[3]</value>
+      <webElementGuid>cec527b4-8eaa-45c3-95c4-423b3814763d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span[4]</value>
+      <webElementGuid>6adcfafe-a52e-4df1-9f63-024c6c42ebb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-addtocart/button/span[4]</value>
+      <webElementGuid>ba963063-acb3-4d48-9926-e0fcac83fe8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
