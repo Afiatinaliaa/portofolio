@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-card-content</value>
-      <webElementGuid>647b1646-08a8-4819-96cf-e3ebd56a2dde</webElementGuid>
+      <webElementGuid>b8beccd9-7db7-4219-ba62-4ccc4af81acc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-card-content</value>
-      <webElementGuid>9cf614c0-5a64-4833-9fe8-d9a41df88a84</webElementGuid>
+      <webElementGuid>f8ffb974-df71-42bf-84d3-f088065af851</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <type>Main</type>
       <value>Harry Potter and the Prisoner of Azkaban₹213.00shopping_cart Add to Cart
 </value>
-      <webElementGuid>f118d28f-47a3-433a-999a-73127bc5750c</webElementGuid>
+      <webElementGuid>c46dd610-4e2d-4e93-898f-62b17e61af19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex justify-content-start card-deck-container mb-4 ng-star-inserted&quot;]/div[@class=&quot;p-1 ng-star-inserted&quot;]/app-book-card[1]/mat-card[@class=&quot;mat-mdc-card mdc-card book-card mat-elevation-z2&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content&quot;]</value>
-      <webElementGuid>61972b60-5253-4634-84c7-5a81cf094d11</webElementGuid>
+      <webElementGuid>92f8b9d0-48b3-4b01-9ad3-f8eec10ca084</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/following::mat-card-content[1]</value>
-      <webElementGuid>b74fac21-aa65-41af-b1b5-b9bce3fe00d5</webElementGuid>
+      <webElementGuid>498c89ee-6b9c-41e3-965d-0d3acfcdce1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Chamber of Secrets'])[1]/following::mat-card-content[1]</value>
-      <webElementGuid>c8a1797f-fe8e-40e6-8e63-b22d9d20c64d</webElementGuid>
+      <webElementGuid>067aa991-0105-4d10-9247-86cdda839481</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/app-book-card/mat-card/mat-card-content</value>
-      <webElementGuid>c3972fa7-3337-42b1-bf98-b699bc2ab37b</webElementGuid>
+      <webElementGuid>3919f11d-df7d-48d5-be46-87881e82cd83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +80,6 @@
       <value>//mat-card-content[(text() = 'Harry Potter and the Prisoner of Azkaban₹213.00shopping_cart Add to Cart
 ' or . = 'Harry Potter and the Prisoner of Azkaban₹213.00shopping_cart Add to Cart
 ')]</value>
-      <webElementGuid>3e35a0b9-0550-4043-ba81-4ea78b172781</webElementGuid>
+      <webElementGuid>043f72cd-4a30-4f42-9734-a3d5a987c0e6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

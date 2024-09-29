@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>783ec2c8-12c0-4116-b72f-c8adb034e949</webElementGuid>
+      <webElementGuid>40bbf3f3-1f07-4c97-9ad7-94b4efd6160c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>6cbbae47-26e9-4031-8f30-3e1017f0e1f2</webElementGuid>
+      <webElementGuid>7e30ff4c-7937-4914-92fb-c712e905050b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>4453a33e-0150-4af4-8afb-10874b5022e8</webElementGuid>
+      <webElementGuid>ba2a5c88-c638-493e-a601-85b73e836cfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search books or authors</value>
-      <webElementGuid>923c5861-6b38-4857-a3e5-257cc8370e72</webElementGuid>
+      <webElementGuid>b54081d8-5f19-4228-b758-5a3370afc41c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-autocomplete-trigger searchbox ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>92946714-47b1-4b93-8012-0ada8573ef36</webElementGuid>
+      <webElementGuid>a6c4eda0-638f-4164-8214-9ae46c37e527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>2ff8857d-0e1f-4931-a319-71b1db23a8dc</webElementGuid>
+      <webElementGuid>06d165d8-c5f3-47a9-be43-7072bfc8db8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>a2744f69-346a-4fb9-911e-9691fc7dea86</webElementGuid>
+      <webElementGuid>35ad5d8d-5a68-4852-a400-eb53030ddc4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>87f89760-f1b3-4355-96f7-8d800ee5c908</webElementGuid>
+      <webElementGuid>78232fd3-4af3-48d8-a9db-064bb19107a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8f79d748-68e5-4c00-b34e-dacb0b78d18a</webElementGuid>
+      <webElementGuid>41fcb0cd-c69d-40c1-a1ef-84e5d2daaef4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>listbox</value>
-      <webElementGuid>3676fe53-3175-4d96-846e-ea4268fbfce0</webElementGuid>
+      <webElementGuid>f1cb82c8-fb79-473f-8ff9-8f048c54c106</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[2]/app-search[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/input[@class=&quot;mat-mdc-autocomplete-trigger searchbox ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>3c0e75e2-2f20-4513-8930-66fc9b24c731</webElementGuid>
+      <webElementGuid>885b693d-d2bb-4293-86d7-9cde6cf46168</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='search']</value>
-      <webElementGuid>58d1a6c5-ac30-4cf0-8e12-f813073e66d7</webElementGuid>
+      <webElementGuid>d6ec6dde-f126-44b3-8e8f-53095b69df1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>7ff20d02-774f-49bf-afdb-5974f16b4fa3</webElementGuid>
+      <webElementGuid>1e9f659b-9c46-4e4c-aae1-1cc67628fa18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @placeholder = 'Search books or authors']</value>
-      <webElementGuid>533fef40-7228-4856-9ccd-424021543ba5</webElementGuid>
+      <webElementGuid>81478abb-b187-4113-92fb-961b373086bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

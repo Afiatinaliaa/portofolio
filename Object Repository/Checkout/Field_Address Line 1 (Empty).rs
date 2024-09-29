@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_Address Line 1 (Empty)</name>
+   <tag></tag>
+   <elementGuidId>8e998d05-4aba-4d98-af4d-4cc7b61a0251</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='mat-mdc-form-field-label-16']/mat-label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-label.ng-tns-c1534922977-10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-label</value>
+      <webElementGuid>806e2cfa-a69a-40f1-b369-8249fccbfb90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c1534922977-10</value>
+      <webElementGuid>9b5c5826-a7d8-4415-919f-af60e18e8eca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Address Line 1</value>
+      <webElementGuid>6c3fa4b1-6981-4001-9bf9-4f768a4f7e48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-form-field-label-16&quot;)/mat-label[@class=&quot;ng-tns-c1534922977-10&quot;]</value>
+      <webElementGuid>ca3c6cbb-5211-438a-9ff5-1a308499af4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='mat-mdc-form-field-label-16']/mat-label</value>
+      <webElementGuid>6e9469f9-a97b-4da2-9ec3-2a7da8513da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::mat-label[1]</value>
+      <webElementGuid>9dc55431-5c8a-4201-b60e-50c344c9c4d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping address'])[1]/following::mat-label[2]</value>
+      <webElementGuid>382fbd1e-48e0-449a-8b31-5a95f1cf64a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Line 2'])[1]/preceding::mat-label[1]</value>
+      <webElementGuid>18eb00f7-c9cf-4d5c-bb22-c3afa02e696d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pincode'])[1]/preceding::mat-label[2]</value>
+      <webElementGuid>861e2251-e041-4564-840f-f16343640e86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Address Line 1']/parent::*</value>
+      <webElementGuid>a189152d-10c5-48d8-bddc-d8cbe11db161</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[2]/div/div/div/div[2]/label/mat-label</value>
+      <webElementGuid>82c5e7fe-2c59-4dc9-90be-7f0e36018548</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-label[(text() = 'Address Line 1' or . = 'Address Line 1')]</value>
+      <webElementGuid>d11dd867-b151-488f-9d6e-f1439c608c88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

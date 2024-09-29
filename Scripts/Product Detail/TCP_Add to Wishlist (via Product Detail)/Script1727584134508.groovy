@@ -19,32 +19,17 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 
-
 //Precondition
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Cases/Product Detail/TCP_View Product Detail (HP Chamber)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://bookcart.azurewebsites.net/')
-
-//Login Using invalid username and password
-WebUI.click(findTestObject('Object Repository/Homepage/Button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Login/Field_Username (Empty)'))
-
-WebUI.setText(findTestObject('Object Repository/Login/Field_Username (After Click)'), 'Adeline_Park')
-
+//Add product to wishlist => Product = Harry Potter Chamber Secret
 // Simpan XPath ke dalam Test Object
-TestObject toPasswordInput = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Password')]/following::input[1]")
- 
-// Input text pada elemen yang mengandung teks 'Password'
-WebUI.setText(toPasswordInput, 'October99')
+TestObject btn_wishlist = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Add to Wishlist')]")
 
-WebUI.click(findTestObject('Object Repository/Login/Button_Login'))
+// Klik elemen yang mengandung teks 'Add to Wishlist'
+WebUI.click(btn_wishlist)
 
-//Expected Result
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Text_Adeline_Park'), 15)
+//Expected
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Popup_Item added to your Wishlist'), 15)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Chamber Secret'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Prisoner Azkaban'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Icon_Favorite (Empty)'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Button_Remove from Wishlist'), 15)

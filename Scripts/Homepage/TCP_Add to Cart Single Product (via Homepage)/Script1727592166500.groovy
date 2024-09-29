@@ -19,32 +19,18 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 
-
 //Precondition
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Cases/Login/TCP_Success Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://bookcart.azurewebsites.net/')
+//Add to cart single product
+WebUI.click(findTestObject('Object Repository/Homepage/Button_Add to Cart (HP the Chamber of Secrets)'), FailureHandling.STOP_ON_FAILURE)
 
-//Login Using invalid username and password
-WebUI.click(findTestObject('Object Repository/Homepage/Button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Login/Field_Username (Empty)'))
-
-WebUI.setText(findTestObject('Object Repository/Login/Field_Username (After Click)'), 'Adeline_Park')
-
-// Simpan XPath ke dalam Test Object
-TestObject toPasswordInput = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Password')]/following::input[1]")
- 
-// Input text pada elemen yang mengandung teks 'Password'
-WebUI.setText(toPasswordInput, 'October99')
-
-WebUI.click(findTestObject('Object Repository/Login/Button_Login'))
+WebUI.click(findTestObject('Object Repository/Product Detail/Cart Counter_1'), FailureHandling.STOP_ON_FAILURE)
 
 //Expected Result
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Text_Adeline_Park'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Button_Add to Cart (HP the Chamber of Secrets)'), 15)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Chamber Secret'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Cart/Text_Amount 1 Product (235.00)'), 15)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Prisoner Azkaban'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Cart/Button_CheckOut (1 Product)'), 15)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Icon_Favorite (Empty)'), 15)

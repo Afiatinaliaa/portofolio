@@ -19,32 +19,17 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 
-
 //Precondition
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Cases/Product Detail/TCP_Add to Wishlist (via Product Detail)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://bookcart.azurewebsites.net/')
-
-//Login Using invalid username and password
-WebUI.click(findTestObject('Object Repository/Homepage/Button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Login/Field_Username (Empty)'))
-
-WebUI.setText(findTestObject('Object Repository/Login/Field_Username (After Click)'), 'Adeline_Park')
-
+//Add product to wishlist => Product = Harry Potter Chamber Secret
 // Simpan XPath ke dalam Test Object
-TestObject toPasswordInput = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Password')]/following::input[1]")
- 
-// Input text pada elemen yang mengandung teks 'Password'
-WebUI.setText(toPasswordInput, 'October99')
+TestObject btn_rmvWishlist = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Remove from Wishlist')]")
 
-WebUI.click(findTestObject('Object Repository/Login/Button_Login'))
+// Klik elemen yang mengandung teks 'Remove from Wishlist'
+WebUI.click(btn_rmvWishlist)
 
-//Expected Result
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Text_Adeline_Park'), 15)
+//Expected
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Popup_Item removed from your Wishlist'), 15)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Chamber Secret'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Prisoner Azkaban'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Icon_Favorite (Empty)'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Button_Add to Wishlist (HP the Chamber of Secrets)'), 15)

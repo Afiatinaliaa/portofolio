@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d30494a4-eedf-40d1-9fe4-60da15c62663</webElementGuid>
+      <webElementGuid>c9c78b7c-0a5e-429f-b275-12579fdde0e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdc-button__label</value>
-      <webElementGuid>7d8897a4-7f71-4cd2-a026-01da662d6506</webElementGuid>
+      <webElementGuid>67d930d4-af9a-46c0-a04a-d70e0749f9dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Login </value>
-      <webElementGuid>5af3e2a2-2b08-46ac-8857-5fa5ec2e2623</webElementGuid>
+      <webElementGuid>8a418962-f8b5-48ca-80c7-6ad6f301f571</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mat-mdc-tooltip-trigger mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
-      <webElementGuid>0442fd63-d5c4-4d1d-920b-ad6aedf8fcd2</webElementGuid>
+      <webElementGuid>4fcb412d-6996-438f-9766-c4fa40536ae5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::span[8]</value>
-      <webElementGuid>bce8a98b-ae76-4731-a272-f5ec5af24105</webElementGuid>
+      <webElementGuid>3c78116f-83e9-4479-bd02-6538059e9add</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swagger'])[1]/preceding::span[5]</value>
-      <webElementGuid>dfc2ae19-1d5d-4a4f-91f4-b8a3f507ddf7</webElementGuid>
+      <webElementGuid>68d8f3b8-7f57-4ad8-ae3f-ab5335f0470d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/preceding::span[11]</value>
-      <webElementGuid>7dd9a7e9-d6a8-49ed-a7b5-148f7e135459</webElementGuid>
+      <webElementGuid>8cc89bfb-7365-4199-8cbd-a48a13086fae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>bde837fc-b775-4473-87f2-d9a14ebc78ac</webElementGuid>
+      <webElementGuid>fbe8c65b-0708-41f2-9e6b-6128a19f6ddb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span[2]</value>
-      <webElementGuid>2d82a44a-8f57-4719-8bdb-b161442de6eb</webElementGuid>
+      <webElementGuid>0bcb7a21-9d32-4264-8394-18c48128d533</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Login ' or . = ' Login ')]</value>
-      <webElementGuid>54897ded-16fc-4aa1-a22f-d6be06cae0f5</webElementGuid>
+      <webElementGuid>920615af-087d-48cc-8618-4c4e1ce7f4aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

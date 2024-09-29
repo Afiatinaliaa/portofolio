@@ -16,35 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObject
-
 
 //Precondition
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Cases/Login/TCP_Success Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://bookcart.azurewebsites.net/')
+//View product detail => Product = Harry Potter Chamber Secret
+WebUI.click(findTestObject('Object Repository/Homepage/Text_HP the Chamber of Secrets'))
 
-//Login Using invalid username and password
-WebUI.click(findTestObject('Object Repository/Homepage/Button_Login'))
+//Expected
 
-WebUI.click(findTestObject('Object Repository/Login/Field_Username (Empty)'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Text_ Header (Book Details)'), 15)
 
-WebUI.setText(findTestObject('Object Repository/Login/Field_Username (After Click)'), 'Adeline_Park')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Text_Book Title (HP the Chamber of Secrets)'), 15)
 
-// Simpan XPath ke dalam Test Object
-TestObject toPasswordInput = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Password')]/following::input[1]")
- 
-// Input text pada elemen yang mengandung teks 'Password'
-WebUI.setText(toPasswordInput, 'October99')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Text_Genre (Mystery)'), 15)
 
-WebUI.click(findTestObject('Object Repository/Login/Button_Login'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Text_Amount (235.00)'), 15)
 
-//Expected Result
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Text_Adeline_Park'), 15)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Product Detail/Button_Add to Cart (HP the Chamber of Secrets)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Chamber Secret'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Prisoner Azkaban'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Icon_Favorite (Empty)'), 15)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Product Detail/Button_Add to Wishlist (HP the Chamber of Secrets)'), FailureHandling.STOP_ON_FAILURE)

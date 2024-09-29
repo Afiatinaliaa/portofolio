@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCP_Add to Cart Single Product (via Homepage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0acd4f1-716c-42e6-bd1e-697eeb1a2ea1</testCaseGuid>
+</TestCaseEntity>

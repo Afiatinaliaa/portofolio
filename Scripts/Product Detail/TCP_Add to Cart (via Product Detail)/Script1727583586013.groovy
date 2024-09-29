@@ -16,35 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObject
-
 
 //Precondition
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Cases/Product Detail/TCP_View Product Detail (HP Chamber)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://bookcart.azurewebsites.net/')
+//Add product to cart => Product = Harry Potter Chamber Secret
+WebUI.click(findTestObject('Object Repository/Product Detail/Button_Add to Cart (HP the Chamber of Secrets)'))
 
-//Login Using invalid username and password
-WebUI.click(findTestObject('Object Repository/Homepage/Button_Login'))
+//Expected
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Popup_One Item added to cart'), 15)
 
-WebUI.click(findTestObject('Object Repository/Login/Field_Username (Empty)'))
-
-WebUI.setText(findTestObject('Object Repository/Login/Field_Username (After Click)'), 'Adeline_Park')
-
-// Simpan XPath ke dalam Test Object
-TestObject toPasswordInput = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*[contains(text(), 'Password')]/following::input[1]")
- 
-// Input text pada elemen yang mengandung teks 'Password'
-WebUI.setText(toPasswordInput, 'October99')
-
-WebUI.click(findTestObject('Object Repository/Login/Button_Login'))
-
-//Expected Result
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Text_Adeline_Park'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Chamber Secret'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Card_HP Prisoner Azkaban'), 15)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage/Icon_Favorite (Empty)'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Product Detail/Cart Counter_1'), 15)
